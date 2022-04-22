@@ -1,0 +1,27 @@
+.main__element {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.main__info-blocks {
+  margin-top: 150px;
+}
+
+.chat {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: -41px;
+  right: -93px;
+  z-index: 1;
+}
+
+.chat img {
+  transition: all 0.2s ease-in-out;
+  width: 80px;
+  cursor: pointer;
+}
+
+.chat img:hover {
+  transform: scale(0.8);
+}

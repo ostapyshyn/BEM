@@ -1,0 +1,44 @@
+.header__body {
+  align-items: center;
+  background-color: #f2f1f0;
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.header__logo {
+  align-items: center;
+  background-color: #0063b2;
+  color: #ffffff;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  letter-spacing: 0.1em;
+  width: 192px;
+}
+
+.header__lang {
+  align-items: center;
+  border-left: 2px solid #dcdcdb;
+  display: flex;
+  height: 90px;
+  padding: 0 25px;
+}
+
+.header__langSelect {
+  background-color: #f2f1f0;
+  border: none;
+  color: #8d8d8d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.header__nav {
+  align-items: center;
+  display: flex;
+}

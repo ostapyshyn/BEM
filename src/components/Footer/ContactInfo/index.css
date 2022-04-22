@@ -1,0 +1,44 @@
+.contact-info {
+  width: 50%;
+}
+
+.contact-info__body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 377px;
+  padding: 218px 20px;
+  row-gap: 55px;
+}
+
+.contact-info__all {
+  background: linear-gradient(0deg, rgba(0, 99, 178, 0.88), rgba(0, 99, 178, 0.88)), url('../../../images/form.png');
+  background-size: cover;
+}
+
+.contact-info__item {
+  align-items: center;
+  display: flex;
+  gap: 35px;
+}
+
+.contact-info__item-data {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.contact-info__item-data-phone {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.contact-info__item-img {
+  text-align: center;
+  width: 60px;
+}
